@@ -4,7 +4,6 @@ import turtle
 turtle.hideturtle()
 turtle.speed(speed=10)
 
-
 for i in range(100):
     turtle.color('red')
     turtle.forward(60)
@@ -20,5 +19,4 @@ for i in range(100):
     turtle.left(i)
 
 turtle.end_fill()
-
 turtle.done()

@@ -2,9 +2,9 @@
 import turtle
 
 turtle.hideturtle()
-turtle.speed(speed=10)
+turtle.speed(speed=1000)
 
-for i in range(100):
+for i in range(110):
     turtle.color('red')
     turtle.forward(60)
     turtle.left(90)

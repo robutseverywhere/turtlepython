@@ -6,15 +6,14 @@ turtle.speed(speed=10)
 
 
 for i in range(60):
-    turtle.color('red')
+    turtle.color('black')
     turtle.circle(20)
     turtle.circle(50)
     turtle.circle(35)
     turtle.circle(40)
-    turtle.color('black')
     turtle.circle(25*i)
     turtle.circle(-25*i)
-    turtle.left(i)
+  
 
 turtle.end_fill()
 turtle.done()

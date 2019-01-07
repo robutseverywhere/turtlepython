@@ -1,7 +1,7 @@
 # Python 3.7.1
 import turtle
 
-turtle.speed(speed=10)
+turtle.speed(speed=100)
 
 turtle.color('black', 'pink')
 turtle.begin_fill()
